@@ -1,0 +1,2 @@
+# 커밋시 한글 깨짐 오류
+<a href="https://bmangrok.tistory.com/entry/Git-%EA%B9%83%ED%97%88%EB%B8%8C%EC%97%90-%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%9C-%ED%8C%8C%EC%9D%BC%EC%9D%98-%ED%95%9C%EA%B8%80%EC%9D%B4-%EA%B9%A8%EC%A7%80%EB%8A%94-%ED%98%84%EC%83%81-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0">해당 블로그 참고</a>
