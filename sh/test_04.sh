@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# Æ¯¼ö º¯¼ö $#
-# ÇØ´ç Script¸¦ ½ÇÇàÇÒ ¶§ Àü´ÞµÈ ÀÎÀÚÀÇ °³¼ö¸¦ ³ªÅ¸³»´Â Æ¯¼ö º¯¼öÀÌ´Ù.
+# íŠ¹ìˆ˜ ë³€ìˆ˜ $#
+# í•´ë‹¹ Scriptë¥¼ ì‹¤í–‰í•  ë•Œ ì „ë‹¬ëœ ì¸ìžì˜ ê°œìˆ˜ë¥¼ ë‚˜íƒ€ë‚´ëŠ” íŠ¹ìˆ˜ ë³€ìˆ˜ì´ë‹¤.
 # Example: source sh/test_04.sh arg1 arg2 arg3
-# 3°³
+# 3ê°œ
 
 echo "Number of Args: $#"
 
 # source sh/test_04.sh arg1 arg2 ===> Number of Args: 2
 
-# Æ¯¼ö º¯¼ö $@
-# ÇØ´ç Script¸¦ ½ÇÇàÇÒ ¶§ Àü´ÞµÈ ¸ðµç ÀÎÀÚ¸¦ ³ªÅ¸³»´Â Æ¯¼öº¯¼öÀÌ´Ù.
-# ´Ü, "$@" ÀÌ·¸°Ô Æ÷ÇÔÇÒ °æ¿ì¿¡´Â °ø¹éÀ» ±âÁØÀ¸·Î ±¸ºÐÇÏÁö ¾Ê°í, µû¿ÈÇ¥¸¦ ±âÁØÀ¸·Î ºÐ¸®ÇÑ´Ù.
+# íŠ¹ìˆ˜ ë³€ìˆ˜ $@
+# í•´ë‹¹ Scriptë¥¼ ì‹¤í–‰í•  ë•Œ ì „ë‹¬ëœ ëª¨ë“  ì¸ìžë¥¼ ë‚˜íƒ€ë‚´ëŠ” íŠ¹ìˆ˜ë³€ìˆ˜ì´ë‹¤.
+# ë‹¨, "$@" ì´ë ‡ê²Œ í¬í•¨í•  ê²½ìš°ì—ëŠ” ê³µë°±ì„ ê¸°ì¤€ìœ¼ë¡œ êµ¬ë¶„í•˜ì§€ ì•Šê³ , ë”°ì˜´í‘œë¥¼ ê¸°ì¤€ìœ¼ë¡œ ë¶„ë¦¬í•œë‹¤.
 # Example: source sh/test_04.sh arg1 arg2 "test arg3"
 
 for arg in $@; do

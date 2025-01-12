@@ -3,23 +3,23 @@
 set -e
 
 : << "END"
-* ÇØ´ç ÆÄÀÏ¿¡¼± 2°¡Áö °³³äÀ» ´Ù·é´Ù.
+* í•´ë‹¹ íŒŒì¼ì—ì„  2ê°€ì§€ ê°œë…ì„ ë‹¤ë£¬ë‹¤.
 
-[1] À§Ä¡ ¸Å°³º¯¼ö: $ µÚ¿¡ ¹øÈ£°¡ ¿À´Â º¯¼ö
-    $0 : ½ÇÇà ÆÄÀÏ °æ·Î
-    $1, $2, $3 : ½ÇÇà ±¸¹® µÚ¿¡ ºÙÀº ÀÎÀÚµé
+[1] ìœ„ì¹˜ ë§¤ê°œë³€ìˆ˜: $ ë’¤ì— ë²ˆí˜¸ê°€ ì˜¤ëŠ” ë³€ìˆ˜
+    $0 : ì‹¤í–‰ íŒŒì¼ ê²½ë¡œ
+    $1, $2, $3 : ì‹¤í–‰ êµ¬ë¬¸ ë’¤ì— ë¶™ì€ ì¸ìžë“¤
 
 
-[2] ¹«Á¶°Ç source°¡ ¾Æ´Ï¶ó bash·Î ½ÇÇàÇÒ °Í!
-source·Î ½ÇÇàÇÏ¸é $0°¡ ´Þ¶óÁø´Ù.
-    sourceÀÇ °æ¿ì -> -bash
-    bashÀÇ °æ¿ì -> ÇöÀç ½ºÅ©¸³Æ® °æ·Î
+[2] ë¬´ì¡°ê±´ sourceê°€ ì•„ë‹ˆë¼ bashë¡œ ì‹¤í–‰í•  ê²ƒ!
+sourceë¡œ ì‹¤í–‰í•˜ë©´ $0ê°€ ë‹¬ë¼ì§„ë‹¤.
+    sourceì˜ ê²½ìš° -> -bash
+    bashì˜ ê²½ìš° -> í˜„ìž¬ ìŠ¤í¬ë¦½íŠ¸ ê²½ë¡œ
 
-source¿Í bashÀÇ Â÷ÀÌÁ¡
-source´Â ÇöÀç shell¿¡¼­ ½ºÅ©¸³Æ®¸¦ ½ÇÇàÇÑ´Ù´Â ÀÇ¹ÌÀÌ´Ù.
-bash´Â »õ·Î¿î bash shellÀ» ¸¸µé¾î¼­ °Å±â¼­ ½ÇÇàÇÑ´Ù´Â ÀÇ¹ÌÀÌ´Ù.
+sourceì™€ bashì˜ ì°¨ì´ì 
+sourceëŠ” í˜„ìž¬ shellì—ì„œ ìŠ¤í¬ë¦½íŠ¸ë¥¼ ì‹¤í–‰í•œë‹¤ëŠ” ì˜ë¯¸ì´ë‹¤.
+bashëŠ” ìƒˆë¡œìš´ bash shellì„ ë§Œë“¤ì–´ì„œ ê±°ê¸°ì„œ ì‹¤í–‰í•œë‹¤ëŠ” ì˜ë¯¸ì´ë‹¤.
 
-Áï, source·Î ½ÇÇàÇÏ¸é ±× ¿µÇâÀÌ ½ºÅ©¸³Æ®°¡ ³¡³ª°íµµ ÇöÀç È¯°æ¿¡ ³²¾ÆÀÖ´Ù.
+ì¦‰, sourceë¡œ ì‹¤í–‰í•˜ë©´ ê·¸ ì˜í–¥ì´ ìŠ¤í¬ë¦½íŠ¸ê°€ ëë‚˜ê³ ë„ í˜„ìž¬ í™˜ê²½ì— ë‚¨ì•„ìžˆë‹¤.
 END
 
 # Example: source sh/test_07.sh

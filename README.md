@@ -1,5 +1,5 @@
 # Open Source Study
-* ¿ÀÇÂ ¼Ò½º¸¦ ºÐ¼®ÇÏ±â À§ÇØ¼­ ±¸¼º ¿ä¼ÒµéÀ» °øºÎÇÏ¿© ±â·ÏÇÑ´Ù.
+* ì˜¤í”ˆ ì†ŒìŠ¤ë¥¼ ë¶„ì„í•˜ê¸° ìœ„í•´ì„œ êµ¬ì„± ìš”ì†Œë“¤ì„ ê³µë¶€í•˜ì—¬ ê¸°ë¡í•œë‹¤.
 * Repository: <b><a href="https://github.com/cosmoscout/cosmoscout-vr/tree/v1.9.0">CosmoScout VR v1.9.0</a></b>
 ### To Do
 1. Shell Script (Bash. <code>.sh</code>)

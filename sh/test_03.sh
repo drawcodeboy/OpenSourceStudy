@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Á¶°Ç¹®
-#if [ °ª1 Á¶°Ç½Ä °ª2 ]; then
-#   ½ÇÇà¹®
+# ì¡°ê±´ë¬¸
+#if [ ê°’1 ì¡°ê±´ì‹ ê°’2 ]; then
+#   ì‹¤í–‰ë¬¸
 #fi
 
 VAL1=2
@@ -12,4 +12,4 @@ if [ ${VAL1} -eq ${VAL2} ]; then
     echo "${VAL1} EQUALS ${VAL2}"
 fi
 
-# ³ª¸ÓÁö Á¶°Ç¹® °ü·Ã ÀÚ·á docs/STUDY.md Âü°í!
+# ë‚˜ë¨¸ì§€ ì¡°ê±´ë¬¸ ê´€ë ¨ ìžë£Œ docs/STUDY.md ì°¸ê³ !
