@@ -4,5 +4,5 @@
 ### To Do
 1. Shell Script (Bash. <code>.sh</code>)
 2. IDE Setup <code>.vscode</code>
-3. Qt
-4. C++
+3. CMake
+4. C++, Qt
