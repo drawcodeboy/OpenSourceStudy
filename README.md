@@ -5,4 +5,5 @@
 1. Shell Script (Bash. <code>.sh</code>)
 2. IDE Setup <code>.vscode</code>
 3. CMake
+    * CMake는 이 <a href="https://github.com/drawcodeboy/CMake-Tutorial">Repo</a>에서 진행 중
 4. C++, Qt
